@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelkerCad - Desenhos Mecânicos</title>
+    <meta name="description" content="Entre em contato com [Seu Nome] para agendar um ensaio ou solicitar um orçamento.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar container">
+            <a href="index.html" class="logo">MelkerCAD</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link active">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact container">
+            <h2 class="section-title">Fale Comigo</h2>
+            <p class="section-subtitle">Tem uma ideia ou um projeto em mente? Adoraria ouvir sobre ele!</p>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Sua Mensagem</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MelkerCAD por Bruno Claro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" title="Voltar ao topo">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

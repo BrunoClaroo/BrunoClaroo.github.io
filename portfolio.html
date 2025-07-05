@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelkerCad - Desenhos Mecânicos</title>
+    <meta name="description" content="Explore a galeria de trabalhos de [Seu Nome]. Veja fotografias de paisagens, retratos e eventos.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar container">
+            <a href="index.html" class="logo">MelkerCAD</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfólio</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio container">
+            <h2 class="section-title">Minha Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/galeria/thumb-1.jpg" alt="Descrição da imagem 1" data-full="images/galeria/full-1.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galeria/thumb-2.jpg" alt="Descrição da imagem 2" data-full="images/galeria/full-2.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galeria/thumb-3.jpg" alt="Descrição da imagem 3" data-full="images/galeria/full-3.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galeria/thumb-4.jpg" alt="Descrição da imagem 4" data-full="images/galeria/full-4.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galeria/thumb-5.jpg" alt="Descrição da imagem 5" data-full="images/galeria/full-5.jpg">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/galeria/thumb-6.jpg" alt="Descrição da imagem 6" data-full="images/galeria/full-6.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="imageModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MelkerCAD por Bruno Claro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" title="Voltar ao topo">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
